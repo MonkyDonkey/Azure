@@ -12,4 +12,4 @@ $parameters = @{
 }
 $templatePath = https://github.com/MonkyDonkey/Azure/raw/main/CreateDcServers.json
 
-New-AzureRmResourceGroupDeployment -ResourceGroupname $rg.ResourceGroupname -TemplateFile $templatePath -TemplateparameterObject $parameters - verbose
+New-AzureRmResourceGroupDeployment -ResourceGroupname $rg.ResourceGroupname -TemplateFile $templatePath -TemplateparameterObject $parameters -verbose
