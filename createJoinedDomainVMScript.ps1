@@ -16,4 +16,4 @@ $parameters = @{
 }
 $templatePath = https://github.com/MonkyDonkey/Azure/raw/main/createVmAndAddToDomain.json
 
-New-AzureRmResourceGroupDeployment -ResourceGroupname $rg.ResourceGroupname -TemplateFile $templatePath $parameters
+New-AzureRmResourceGroupDeployment -ResourceGroupname $rg.ResourceGroupname -TemplateFile $templatePath -TemplateparameterObject $parameters -verbose
