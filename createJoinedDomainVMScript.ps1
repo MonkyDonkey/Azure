@@ -9,7 +9,7 @@ $parameters = @{
   domainToJoin = "exam.com";
   domainUsername = "admin";
   domainPassword = "youDontKnowMyPassword";
-  ouPath = "OU=testOU,DC=exam,DC=com";
+  ouPath = "OU=serversOU,DC=exam,DC=com";
   adminUsername = "vmAdmin";
   adminPassword = "vmPassword"
   
